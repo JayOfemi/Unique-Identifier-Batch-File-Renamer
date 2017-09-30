@@ -1,6 +1,10 @@
 //Create Dummy Files to test Rename.cpp
 //dummy.cpp
 
+//DISCLAIMER: This is an exe file that deletes any file 
+//whose name contains the word "dummy" then creates 
+//5 million "dummy ().txt" files to be renamed.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
