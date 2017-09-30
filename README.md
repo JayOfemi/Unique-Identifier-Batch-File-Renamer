@@ -26,7 +26,8 @@ After 4 hours of slowly chipping again, i knew there had to be a better way. I p
 this C++ program and have tested it countless times with up to 5,000,000 files with no fail.
 The program reads a file name up to a certain unique identifier (in my case, i noticed that
 there was a space before the timestamps) and removes everything after, and the unique
-identifier.
+identifier. The program is built with fail safes. If a renaming error occurs or if a file is 
+about to be renamed with the wrong name, the program will print the error and stop.
 
 01fe3ff3 (2015_09_12_6_00_UTC).au --> 01fe3ff3.au
 allTxtDocs (2015_09_12_6_00_UTC).txt --> allTxtDocs.txt
