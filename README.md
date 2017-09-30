@@ -10,7 +10,7 @@ of the problem, i realized that not only were the ".au" files timestamped with t
 time of the file sync, but EVERYTHING, all files, were timestamped like so:
 
 01fe3ff3.au  -->   01fe3ff3 (2015_09_12_6_00_UTC).au
-allTxtDocs.txt --> allTxtDocs (2015_09_12_6_00_UTC).txt
+     allTxtDocs.txt --> allTxtDocs (2015_09_12_6_00_UTC).txt
 anyKindOfCode.c --> anyKindOfCode (2015_09_12_6_00_UTC).c
 
 This proved to be very problematic as there were an average of 800 ".au" files per song
@@ -30,7 +30,7 @@ identifier. The program is built with fail safes. If a renaming error occurs or 
 about to be renamed with the wrong name, the program will print the error and stop.
 
 01fe3ff3 (2015_09_12_6_00_UTC).au --> 01fe3ff3.au
-allTxtDocs (2015_09_12_6_00_UTC).txt --> allTxtDocs.txt
+     allTxtDocs (2015_09_12_6_00_UTC).txt --> allTxtDocs.txt
 anyKindOfCode (2015_09_12_6_00_UTC).c --> anyKindOfCode.c
 
 My problem was solved! Opening one timestamped project was a process that took 6 hours, now it took 2 seconds.
