@@ -23,7 +23,7 @@ same name. After months of chipping away slowly at these files, again i thought 
 and gave up on the process. I went on to make more projects and tried to forget about the loss, 
 until 2 days ago when i desperately needed access to a song I had previously recorded.
 After 4 hours of slowly chipping again, i knew there had to be a better way. I put together
-this C++ program and have tested it countless times with up to 50,000 files with no fail.
+this C++ program and have tested it countless times with up to 5,000,000 files with no fail.
 The program reads a file name up to a certain unique identifier (in my case, i noticed that
 there was a space before the timestamps) and removes everything after, and the unique
 identifier.
